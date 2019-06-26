@@ -38,3 +38,5 @@ fields:
   type: text
   hidden: true
   default: post
+pages:
+- _posts/with-the-new-messages-from-my-phone.md
