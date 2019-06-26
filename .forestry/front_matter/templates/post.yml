@@ -25,6 +25,15 @@ fields:
   name: banner_image
   label: Banner Image
   description: Ideal dimensions 2500px by 1200px
+- name: content
+  type: textarea
+  default: Body of the post
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Content
 - type: list
   name: related_posts
   label: Related Posts
